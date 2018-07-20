@@ -1,0 +1,6 @@
+condition,prediction,No_Of_Records_Supported,Support,Confidence,Lift
+"(discharge_disposition_id_Transferred <= 0.5) -> (num_diagnoses <= 5.5), gini = 0.496",Within30days,2393,0.069062049,0.71583786,10.36514077
+"(discharge_disposition_id_Transferred <= 0.5)' -> (#drugs <= 0.5), gini = 0.457",Within30days,1483,0.042799423,0.157788267,3.686691472
+"(admission_source_id_Emergency Room <= 0.5), gigni=0.487 -> gini = 0.499",Within30days,1408,0.040634921,0.139204545,3.425736861
+"(admission_source_id_Emergency Room <= 0.5),gini = 0.487 -> gini = 0.469",Within30days,1298,0.037460317,0.06009245,1.604162858
+"(num_lab_procedures <= 90.5), gini=0.447 -> gini =0.446",Within30days,1199,0.034603175,0.04587156,1.325645989
